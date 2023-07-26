@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+mkdir -p /etc/greetd/
+cp -f /usr/share/pika/greetd/config.toml /etc/greetd/config.toml

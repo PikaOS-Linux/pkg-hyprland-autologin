@@ -1,0 +1,11 @@
+[terminal]
+vt = 7
+
+[default_session]
+command = "tuigreet -g 'Welcome to pikaos' --user-menu --asterisks --cmd Hyprland"
+user = "_greetd"
+
+#Autologin
+[initial_session]
+command = "Hyprland"
+user = "pikaos"

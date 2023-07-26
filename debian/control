@@ -1,19 +1,13 @@
-Source: upstream-name
-Section: admin
+Source: pika-hyprland-autologin
+Section: main
 Priority: optional
-Maintainer: name <email>
+Maintainer: ferrreo <harderthanfire@gmail.com>
 Standards-Version: 4.6.1
 Build-Depends: debhelper-compat (= 13)
 Rules-Requires-Root: no
 
-Package: pkgname1
+Package: pika-hyprland-autologin
 Architecture: linux-any
-# Delete any of these lines if un-used
-Depends: ${misc:Depends}, depends
-Recommends: high priority optdepends
-Conflicts: conflicts
-Suggests: low priority optdepends
-Breaks: also conflicts!?
-Provides: provides
-#
-Description: pkgdesc
+Depends: pika-hyprland-settings
+Provides: pika-hyprland-autologin
+Description: Autologin script for hyprland iso
